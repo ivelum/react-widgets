@@ -153,6 +153,10 @@
 .rw-input-reset {
   .placeholder();
   outline: 0;
+
+  &[placeholder] {
+    text-overflow: ellipsis;
+  }
 }
 
 .rw-input {
